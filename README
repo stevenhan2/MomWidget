@@ -1,10 +1,13 @@
-How to use:
+Make your own MomWidget
+========================
 
 1. Extend CuteProvider
+--------------------------
 
 The MomWidget displays Cute objects, which are just an image, a name, and something said. Initialize these within your own CuteProvider. I have included a demo CuteProvider class.
 
 2. Decide the frequency of each CuteProvider in MomWidgetProvider.
+--------------------------
 
 Add instances of CuteProvider to the constructor of MomWidgetProvider. Modify getRandomCute() to decide how frequently each CuteProvider gets used.
 
