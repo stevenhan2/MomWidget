@@ -1,0 +1,11 @@
+How to use:
+
+1. Extend CuteProvider
+
+The MomWidget displays Cute objects, which are just an image, a name, and something said. Initialize these within your own CuteProvider. I have included a demo CuteProvider class.
+
+2. Decide the frequency of each CuteProvider in MomWidgetProvider.
+
+Add instances of CuteProvider to the constructor of MomWidgetProvider. Modify getRandomCute() to decide how frequently each CuteProvider gets used.
+
+notes: Widget only updates every 30 minutes at max (needs heavier modification to change this time). Add your own preview in momwidget_provider.xml. Add your own icon in AndroidManifest.xml
