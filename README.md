@@ -1,13 +1,10 @@
-Make your own MomWidget
-=======================
+## Usage
 
-1. Create a CuteProvider
-------------------------
+#### 1. Create a CuteProvider
 
 The MomWidget displays Cute objects, which consist of an image, name, and something to be said to mom. Extend CuteProvider class and have it create the Cute objects you want. I have included a demo TestCuteProvider.java.
 
-2. Modify MomWidgetProvider
----------------------------
+#### 2. Modify MomWidgetProvider
 
 Decide how often which CuteProviders get used in the getRandomCute() method. Be sure to add these to the cute ArrayList<CuteProvider> or choose your own way of doing so.
 
